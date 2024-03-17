@@ -17,10 +17,10 @@ cd geoOdooHelper
 
 
 ## Usage
-Usage: ./script.sh [option] [filename or pattern]
+Usage: geoOdooHelper [option] [filename or pattern]
 
 Options:
--h Display this help message
+-h Display help message
 -d Pull changes and restart services for Docker projects
 -l Pull changes and restart services for local projects
 
@@ -31,10 +31,10 @@ filename or pattern Specify the filename or pattern to search for
 ## Example Usage
 ```bash
 # Pull changes and restart services for Docker project
-./script.sh -d project_name
+./geoOdooHelper -d project_name
 
 # Pull changes and restart services for local project
-./script.sh -l pattern
+./geoOdooHelper -l pattern
 ```
 
 ## Prerequisites
