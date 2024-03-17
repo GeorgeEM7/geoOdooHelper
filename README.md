@@ -1,6 +1,4 @@
-# geoOdooHelper
-
-# Project Name: Bash Script for Pulling Changes and Restarting Services
+# geoOdooHelper: Bash Script for Pulling Changes and Restarting Services
 
 ## Description
 This Bash script is designed to automate the process of pulling changes from Git repositories and restarting services. It provides options for pulling changes and restarting services for both Docker projects and local projects. The script accepts two arguments: an option (-d for Docker projects, -l for local projects) and a filename or pattern to search for.
@@ -24,7 +22,7 @@ filename or pattern Specify the filename or pattern to search for
 
 # Pull changes and restart services for local project
 ./script.sh -l pattern
-
+```
 
 ## Prerequisites
 * Git must be installed for pulling changes from repositories.
