@@ -5,10 +5,10 @@ This Bash script is designed to automate the process of pulling changes from Git
 
 
 ## installation
-``` bash 1
+``` bash
 git clone https://github.com/GeorgeEM7/geoOdooHelper.git
 ```
-``` bash 2
+``` bash
 cd geoOdooHelper
 ```
 ``` bash
