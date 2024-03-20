@@ -8,3 +8,4 @@ cd ../ || exit
 
 sudo rm -rf geoOdooHelper || exit
 
+cd ../
